@@ -2,513 +2,723 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="https://adaconstruction.com/">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ADA Construction Co., Ltd</title>
-    <link rel="canonical" href="https://adaconstruction.com/" />
-    <!-- fontawesome cdn -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- bootstrap css -->
-    <link rel = "stylesheet" href = "bootstrap-5.0.2-dist/css/bootstrap.min.css">
-    <!-- custom css -->
-    <link rel = "stylesheet" href = "css/main.css">
+    <title>SOCIAL BOOK</title>
+    <!-- ................CUSTOM CSS LINK................... -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    <!-- navbar -->
-    <nav class = "navbar navbar-expand-lg navbar-light bg-white py-4 fixed-top">
-        <div class = "container">
-            <a class = "navbar-brand d-flex justify-content-between align-items-center order-lg-0" href = "index.html">
-                <img src = "images/shopping-bag-icon1.png" alt = "site icon">
-                <span class = "#"></span>
-            </a>
-
-            <button class = "navbar-toggler border-0" type = "button" data-bs-toggle = "collapse" data-bs-target = "#navMenu">
-                <span class = "navbar-toggler-icon"></span>
-            </button>
-
-            <div class = "collapse navbar-collapse order-lg-1" id = "navMenu">
-                
-                <ul class = "navbar-nav mx-auto text-center">
-                    <li class = "nav-item px-2 py-2">
-                        <a class = "nav-link text-uppercase text-dark" href = "#header">home</a>
-                    </li>
-                    <li class = "nav-item px-2 py-2">
-                        <a class = "nav-link text-uppercase text-dark" href = "#about">about</a>
-                    </li>
-                    
-                    <li class = "nav-item px-2 py-2">
-                        <a class = "nav-link text-uppercase text-dark" href = "#">services <i class="fas fa-caret-down"></i></a>
-                        
-                            <div class="dropdown_menu">
-                                <ul>
-                                    <li><a href="#">Available Services </a></li>
-                                    <li><a href="#">Principital Services</a></li>
-
-                                </ul>
-                            </div>
-                    <li class = "nav-item px-2 py-2 border-0">
-                         <a class = "nav-link text-uppercase text-dark" href = "#about">Promotions</a>
-                    </li>
-
-                    <li class = "nav-item px-2 py-2">
-                        <a class = "nav-link text-uppercase text-dark" href = "#">projects <i class="fas fa-caret-down"></i></a>
-                        
-                            <div class="dropdown_menu1">
-                                <ul>
-                                    <li><a href="#">Resources <i class="fas fa-caret-right"></i></a></li>
-                                    <div class="dropdown_menu3">
-                                        <ul>
-                                            <li><a href="#">Restricted</a></li>
-                                            <li><a href="#">Subscription</a></li>
-                                            <li><a href="#">Open To All</a></li>
-        
-                                        </ul>
-                                    </div>
-                                </ul>
-                            </div>
-
-                    <li class = "nav-item px-2 py-2 border-0">
-                        <a class = "nav-link text-uppercase text-dark" href = "#about">contact us</a>
-                    </li>
-
-                    <li class = "nav-item px-2 py-2">
-                        <a class = "nav-link text-uppercase text-dark" href = "#">Activites<i class="fas fa-caret-down"></i></a>
-                        
-                            <div class="dropdown_menu2">
-                                <ul>
-                                    <li><a href="#">Activites</a></li>
-                                    <li><a href="#">Video Channel</a></li>
-
-                                </ul>
-                            </div>
-                </ul>
+    <!-- .............START NAV SECTION...................... -->
+    <nav>
+        <div class="container nav-container">
+            <h2 class="logo">
+                social<span>book</span>
+            </h2>
+            <div class="search-bar">
+                <img src="icon/search.svg" class="icon2">
+                <input type="search" placeholder="search for creater...">
+            </div>
+            <div class="create">
+                <label for="creatPost" class="btn btn-primary" >update</label>
+                <div class="profile-phots">
+                    <img src="img/profile-1.jpeg" alt="">
+                </div>
             </div>
         </div>
     </nav>
-    <!-- end of navbar -->
+    <!-- ................END NAV SECTION......................... -->
 
-    <!-- header -->
-    <header id = "header" class = "vh-100 carousel slide" data-bs-ride = "carousel" style = "padding-top: 104px;">
-        <div class = "container h-100 d-flex align-items-center carousel-inner">
-            <div class = "text-center carousel-item active">
-                <h2 class = "text-uppercase py-2 fw-bold text-gold">Awng Dang Awng</h2>
-                <h2 class = "text-uppercase py-2 fw-bold text-gold">CONSTRUCTION COMPANY</h2>
-               
+
+
+    <!-- ................START MAINE SECTION......................... -->
+    <main>
+        <div class="container main-container">
+            <!--=======MAIN LEFT======== -->
+            <div class="main-left">
+              <div class="profile">
+                <div class="profile-phots">
+                    <img src="img/profile-1.jpeg" alt="">
+                </div> 
+                <div class="hendel">
+                    <h4>beg joker</h4>
+                    <p class="text-gry">@thebegjoker</p>
+                </div>  
+              </div>
+
+              <!--.............. SIDEBAR.............. -->
+              <div class="side-bar"> 
+
+                <a class="menu-item active" >
+                    <span><img src="icon/house-door.svg" class="icon1"></span><h3>home</h3>
+                </a>
+                <a class="menu-item " >
+                    <span><img src="icon/joystick.svg" class="icon1"></span><h3>explore</h3>
+                </a>
+                <a class="menu-item" id="notifice">
+                    <span> <small class="count">9</small> <img src="icon/bell.svg" class="icon1"></span><h3>notifications</h3>
+                    <!-- ....................notification............................ -->
+                    <div class="notification">
+                        <div class="NP">
+                            <div class="profile-phots">
+                                <img src="img/p2.jpg" alt="">
+                            </div> 
+                            <div class="notification-body">
+                                <b>melody</b> accepted your firend request  
+                                <small class="text-gry"> 1 minutes ago</small>                              
+                            </div>
+                        </div>
+                        <div class="NP">
+                            <div class="profile-phots">
+                                <img src="img/p3.png" alt="">
+                            </div> 
+                            <div class="notification-body">
+                                <b>jhon lew</b> commented your post 
+                                <small class="text-gry"> 4 minutes ago</small>                              
+                            </div>
+                        </div>
+                        <div class="NP">
+                            <div class="profile-phots">
+                                <img src="img/p4.png" alt="">
+                            </div> 
+                            <div class="notification-body">
+                                <b>leah pry</b>  liked your post 
+                                <small class="text-gry"> 10 minutes ago</small>                              
+                            </div>
+                        </div>
+                        <div class="NP">
+                            <div class="profile-phots">
+                                <img src="img/p5.png" alt="">
+                            </div> 
+                            <div class="notification-body">
+                                <b>david</b> liked your post 
+                                <small class="text-gry"> 20 minutes ago</small>                              
+                            </div>
+                        </div>
+                        <div class="NP">
+                            <div class="profile-phots">
+                                <img src="img/profile-4.jpg" alt="">
+                            </div> 
+                            <div class="notification-body">
+                                <b>angla fox</b> reacted your post 
+                                <small class="text-gry"> 1 hour ago</small>                              
+                            </div>
+                        </div>
+                        <div class="NP">
+                            <div class="profile-phots">
+                                <img src="img/profile-5.jpeg" alt="">
+                            </div> 
+                            <div class="notification-body">
+                                <b>lana</b>  accepted your firend request
+                                <small class="text-gry">2 hour ago</small>                              
+                            </div>
+                        </div>
+                        <div class="NP">
+                            <div class="profile-phots">
+                                <img src="img/p7.png" alt="">
+                            </div> 
+                            <div class="notification-body">
+                                <b>mark newton</b> accepted your firend request
+                                <small class="text-gry"> 2 days ago</small>                              
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a class="menu-item"  id="message">
+                    <span> <small class="count">3</small> <img src="icon/chat-left-dots.svg" class="icon1"></span><h3>message</h3>
+                </a>
+                <a class="menu-item " >
+                    <span><img src="icon/bookmarks.svg" class="icon1"></span><h3>bookmarks</h3>
+                </a>
+                <a class="menu-item " >
+
+                    <span><img src="icon/graph-up-arrow.svg" class="icon1"></span><h3>analytics</h3>
+                </a>
+                <a class="menu-item " id="themeMenu">
+                    <span><img src="icon/palette.svg" class="icon1"></span><h3>theme</h3>
+                </a>
+                <a class="menu-item g" >
+                    <span><img src="icon/gear.svg" class="icon1"></span><h3>setings</h3>
+                </a>   
+
+                <label for="creatPost" class="btn btn-primary" >create post</label>
+         
+              </div>
+
             </div>
-            <div class = "text-center carousel-item">
-                <h2 class = "text-uppercase py-2 fw-bold text-gold">Awng Dang Awng</h2>
-                <h2 class = "text-uppercase py-2 fw-bold text-gold">CONSTRUCTION COMPANY</h2>
+            <!-- =======MAIN MID======= -->
+            <div class="main-mid">
                 
-            </div>
-        </div>
-
-        <button class = "carousel-control-prev" type = "button" data-bs-target="#header" data-bs-slide = "prev">
-            <span class = "carousel-control-prev-icon"></span>
-        </button>
-        <button class = "carousel-control-next" type = "button" data-bs-target="#header" data-bs-slide = "next">
-            <span class = "carousel-control-next-icon"></span>
-        </button>
-    </header>
-    <!-- end of header -->
-
-    <!-- special products -->
-    <section id = "services" class = "py-5">
-        <div class = "container">
-            <div class = "title text-center py-5">
-                <h2 class = "position-relative d-inline-block">Our Best Services</h2>
-            </div>
-
-            <div class = "services-list row g-0">
-                <div class = "col-md-6 col-lg-4 col-xl-3 p-2">
-                    <div class = "services-img position-relative overflow-hidden">
-                        <img src = "images/building-repairs-icon.png" class = "w-25">
-                        <span class = "position-absolute d-flex align-items-center justify-content-center text-primary fs-4">
-                         
-                        </span>
+                <!-- storys..start.. -->
+                <div class="storys">
+                    <div class="story">
+                        <div class="profile-phots">
+                            <img src="img/profile-1.jpeg" alt="">
+                        </div>
+                        <p>your story</p>
                     </div>
-                    <div class = "text-left">
-                        <p class = "#">Structural Design</p>
-                        <span class = "fw-bold d-block">Test1</span>
-                     
+                    <div class="story">
+                        <div class="profile-phots">
+                            <img src="img/s2.jpg" alt="">
+                        </div>
+                        <p>jami sia</p>
                     </div>
+                    <div class="story">
+                        <div class="profile-phots">
+                            <img src="img/s3.jpg" alt="">
+                        </div>
+                        <p>newton</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-phots">
+                            <img src="img/s4.jpg" alt="">
+                        </div>
+                        <p>lana fox</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-phots">
+                            <img src="img/s5.jpg" alt="">
+                        </div>
+                        <p>albart joj</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-phots">
+                            <img src="img/s6.jpg" alt="">
+                        </div>
+                        <p>devid mark</p>
+                    </div>                
+
+                
+                </div>                
+                <!-- storys..end.. -->
+                <form class="creatPost">
+                    <div class="profile-phots">
+                        <img src="img/profile-1.jpeg" alt="">
+                    </div>
+                   <div class="text-post">
+                      <input type="text" placeholder="whast's on your mind?" class="creatPost">
+                   </div>
+
+                   <div>
+                       <input type="submit" value="post" class="btn btn-primary">
+                   </div>
+                </form>
+
+                <!--..................feeds..start...............................-->
+                <div class="feeds">
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-phots">
+                                    <img src="img/p7.png" alt="">                                    
+                                </div>
+                                <div class="info">
+                                    <h3>jhon milar</h3>
+                                    <small>cannada, 15 minutes ago</small>
+                                </div>                               
+                            </div>
+                            <span class="edit">
+                                <img src="icon/three-dots.svg" class="icon1">
+                            </span>
+                        </div>
+                            <div class="feed-phots">
+                                <img src="img/feed1.jpeg" alt="">
+                            </div>
+                            <div class="action-buttons">
+                                <div class="inter-action-button">
+                                    <span><img src="icon/heart.svg" class="icon2"></span>
+                                    <span><img src="icon/chat-dots.svg" class="icon2"></span>
+                                    <span><img src="icon/share.svg" class="icon2"></span>
+                                </div>
+                                <div class="book-mark">
+                                   <span><img src="icon/bookmark.svg" class="icon2"></span>
+                                </div>
+                            </div>
+                            <div class="liked-by">
+                                <span><img src="img/p2.jpg" alt=""></span>
+                                <span><img src="img/p4.png" alt=""></span>
+                                <span><img src="img/p5.png" alt=""></span>
+                                <p>like by <b>deniel rivar </b> and<b> 105 others pepoles</b></p>                                                                  
+                            </div>
+                            <div class="caption">
+                                <p><b>angela rose</b>Lorem, ipsum dolor sit amet consectetur. <span class="hash-teg">#lifestyle</span></p>
+                            </div> 
+                            <div class="text-gry comment">view all comments</div> 
+                    </div> 
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-phots">
+                                    <img src="img/p5.png" alt="">                                    
+                                </div>
+                                <div class="info">
+                                    <h3>javed ali</h3>
+                                    <small>india, 15 minutes ago</small>
+                                </div>                               
+                            </div>
+                            <span class="edit">
+                                <img src="icon/three-dots.svg" class="icon1">
+                            </span>
+                        </div>
+                            <div class="feed-phots">
+                                <img src="img/feed8.jpg" alt="">
+                            </div>
+                            <div class="action-buttons">
+                                <div class="inter-action-button">
+                                    <span><img src="icon/heart.svg" class="icon2"></span>
+                                    <span><img src="icon/chat-dots.svg" class="icon2"></span>
+                                    <span><img src="icon/share.svg" class="icon2"></span>
+                                </div>
+                                <div class="book-mark">
+                                   <span><img src="icon/bookmark.svg" class="icon2"></span>
+                                </div>
+                            </div>
+                            <div class="liked-by">
+                                <span><img src="img/p2.jpg" alt=""></span>
+                                <span><img src="img/p4.png" alt=""></span>
+                                <span><img src="img/p5.png" alt=""></span>
+                                <p>like by <b>deniel rivar </b> and<b> 105 others pepoles</b></p>                                                                  
+                            </div>
+                            <div class="caption">
+                                <p><b>angela rose</b>Lorem, ipsum dolor sit amet consectetur. <span class="hash-teg">#lifestyle</span></p>
+                            </div> 
+                            <div class="text-gry comment">view all comments</div> 
+                    </div>        
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-phots">
+                                    <img src="img/feed4.jpg" alt="">                                    
+                                </div>
+                                <div class="info">
+                                    <h3>liah joli</h3>
+                                    <small>america, updated profile</small>
+                                </div>                               
+                            </div>
+                            <span class="edit">
+                                <img src="icon/three-dots.svg" class="icon1">
+                            </span>
+                        </div>
+                            <div class="feed-phots">
+                                <img src="img/feed4.jpg" alt="">
+                            </div>
+                            <div class="action-buttons">
+                                <div class="inter-action-button">
+                                    <span><img src="icon/heart.svg" class="icon2"></span>
+                                    <span><img src="icon/chat-dots.svg" class="icon2"></span>
+                                    <span><img src="icon/share.svg" class="icon2"></span>
+                                </div>
+                                <div class="book-mark">
+                                   <span><img src="icon/bookmark.svg" class="icon2"></span>
+                                </div>
+                            </div>
+                            <div class="liked-by">
+                                <span><img src="img/p2.jpg" alt=""></span>
+                                <span><img src="img/p4.png" alt=""></span>
+                                <span><img src="img/p5.png" alt=""></span>
+                                <p>like by <b>deniel rivar </b> and<b> 105 others pepoles</b></p>                                                                  
+                            </div>
+                            <div class="caption">
+                                <p><b>angela rose</b>Lorem, ipsum dolor sit amet consectetur. <span class="hash-teg">#lifestyle</span></p>
+                            </div> 
+                            <div class="text-gry comment">view all comments</div> 
+                    </div>
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-phots">
+                                    <img src="img/p2.jpg" alt="">                                    
+                                </div>
+                                <div class="info">
+                                    <h3>Deniel Rivar</h3>
+                                    <small>america, just now</small>
+                                </div>                               
+                            </div>
+                            <span class="edit">
+                                <img src="icon/three-dots.svg" class="icon1">
+                            </span>
+                        </div>
+                            <div class="feed-phots">
+                                <img src="img/feed3.png" alt="">
+                            </div>
+                            <div class="action-buttons">
+                                <div class="inter-action-button">
+                                    <span><img src="icon/heart.svg" class="icon2"></span>
+                                    <span><img src="icon/chat-dots.svg" class="icon2"></span>
+                                    <span><img src="icon/share.svg" class="icon2"></span>
+                                </div>
+                                <div class="book-mark">
+                                   <span><img src="icon/bookmark.svg" class="icon2"></span>
+                                </div>
+                            </div>
+                            <div class="liked-by">
+                                <span><img src="img/p2.jpg" alt=""></span>
+                                <span><img src="img/p4.png" alt=""></span>
+                                <span><img src="img/p5.png" alt=""></span>
+                                <p>like by <b>deniel rivar </b> and<b> 105 others pepoles</b></p>                                                                  
+                            </div>
+                            <div class="caption">
+                                <p><b>angela rose</b>Lorem, ipsum dolor sit amet consectetur. <span class="hash-teg">#lifestyle</span></p>
+                            </div> 
+                            <div class="text-gry comment">view all comments</div> 
+                    </div>                   
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-phots">
+                                    <img src="img/s1.jpg" alt="">                                    
+                                </div>
+                                <div class="info">
+                                    <h3>mack since</h3>
+                                    <small>cannada, 15 minutes ago</small>
+                                </div>                               
+                            </div>
+                            <span class="edit">
+                                <img src="icon/three-dots.svg" class="icon1">
+                            </span>
+                        </div>
+                            <div class="feed-phots">
+                                <img src="img/feed2.jpg" alt="">
+                            </div>
+                            <div class="action-buttons">
+                                <div class="inter-action-button">
+                                    <span><img src="icon/heart.svg" class="icon2"></span>
+                                    <span><img src="icon/chat-dots.svg" class="icon2"></span>
+                                    <span><img src="icon/share.svg" class="icon2"></span>
+                                </div>
+                                <div class="book-mark">
+                                   <span><img src="icon/bookmark.svg" class="icon2"></span>
+                                </div>
+                            </div>
+                            <div class="liked-by">
+                                <span><img src="img/p2.jpg" alt=""></span>
+                                <span><img src="img/p4.png" alt=""></span>
+                                <span><img src="img/p5.png" alt=""></span>
+                                <p>like by <b>deniel rivar </b> and<b> 105 others pepoles</b></p>                                                                  
+                            </div>
+                            <div class="caption">
+                                <p><b>angela rose</b>Lorem, ipsum dolor sit amet consectetur. <span class="hash-teg">#lifestyle</span></p>
+                            </div> 
+                            <div class="text-gry comment">view all comments</div> 
+                    </div>                  
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-phots">
+                                    <img src="img/profile-4.jpg" alt="">                                    
+                                </div>
+                                <div class="info">
+                                    <h3>chatrin dia</h3>
+                                    <small>cannada, 15 minutes ago</small>
+                                </div>                               
+                            </div>
+                            <span class="edit">
+                                <img src="icon/three-dots.svg" class="icon1">
+                            </span>
+                        </div>
+                            <div class="feed-phots">
+                                <img src="img/feed6.png" alt="">
+                            </div>
+                            <div class="action-buttons">
+                                <div class="inter-action-button">
+                                    <span><img src="icon/heart.svg" class="icon2"></span>
+                                    <span><img src="icon/chat-dots.svg" class="icon2"></span>
+                                    <span><img src="icon/share.svg" class="icon2"></span>
+                                </div>
+                                <div class="book-mark">
+                                   <span><img src="icon/bookmark.svg" class="icon2"></span>
+                                </div>
+                            </div>
+                            <div class="liked-by">
+                                <span><img src="img/p2.jpg" alt=""></span>
+                                <span><img src="img/p4.png" alt=""></span>
+                                <span><img src="img/p5.png" alt=""></span>
+                                <p>like by <b>deniel rivar </b> and<b> 105 others pepoles</b></p>                                                                  
+                            </div>
+                            <div class="caption">
+                                <p><b>angela rose</b>Lorem, ipsum dolor sit amet consectetur. <span class="hash-teg">#lifestyle</span></p>
+                            </div> 
+                            <div class="text-gry comment">view all comments</div> 
+                    </div>         
+   
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-phots">
+                                    <img src="img/p3.png" alt="">                                    
+                                </div>
+                                <div class="info">
+                                    <h3>jhon milar</h3>
+                                    <small>cannada, 15 minutes ago</small>
+                                </div>                               
+                            </div>
+                            <span class="edit">
+                                <img src="icon/three-dots.svg" class="icon1">
+                            </span>
+                        </div>
+                            <div class="feed-phots">
+                                <img src="img/feed7.jpg" alt="">
+                            </div>
+                            <div class="action-buttons">
+                                <div class="inter-action-button">
+                                    <span><img src="icon/heart.svg" class="icon2"></span>
+                                    <span><img src="icon/chat-dots.svg" class="icon2"></span>
+                                    <span><img src="icon/share.svg" class="icon2"></span>
+                                </div>
+                                <div class="book-mark">
+                                   <span><img src="icon/bookmark.svg" class="icon2"></span>
+                                </div>
+                            </div>
+                            <div class="liked-by">
+                                <span><img src="img/p2.jpg" alt=""></span>
+                                <span><img src="img/p4.png" alt=""></span>
+                                <span><img src="img/p5.png" alt=""></span>
+                                <p>like by <b>deniel rivar </b> and<b> 105 others pepoles</b></p>                                                                  
+                            </div>
+                            <div class="caption">
+                                <p><b>angela rose</b>Lorem, ipsum dolor sit amet consectetur. <span class="hash-teg">#lifestyle</span></p>
+                            </div> 
+                            <div class="text-gry comment">view all comments</div> 
+                    </div>  
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-phots">
+                                    <img src="img/s7.jpg" alt="">                                    
+                                </div>
+                                <div class="info">
+                                    <h3>dr. lony</h3>
+                                    <small>cannada, 15 minutes ago</small>
+                                </div>                               
+                            </div>
+                            <span class="edit">
+                                <img src="icon/three-dots.svg" class="icon1">
+                            </span>
+                        </div>
+                            <div class="feed-phots">
+                                <img src="img/feed5.jpeg" alt="">
+                            </div>
+                            <div class="action-buttons">
+                                <div class="inter-action-button">
+                                    <span><img src="icon/heart.svg" class="icon2"></span>
+                                    <span><img src="icon/chat-dots.svg" class="icon2"></span>
+                                    <span><img src="icon/share.svg" class="icon2"></span>
+                                </div>
+                                <div class="book-mark">
+                                   <span><img src="icon/bookmark.svg" class="icon2"></span>
+                                </div>
+                            </div>
+                            <div class="liked-by">
+                                <span><img src="img/p2.jpg" alt=""></span>
+                                <span><img src="img/p4.png" alt=""></span>
+                                <span><img src="img/p5.png" alt=""></span>
+                                <p>like by <b>deniel rivar </b> and<b> 105 others pepoles</b></p>                                                                  
+                            </div>
+                            <div class="caption">
+                                <p><b>angela rose</b>Lorem, ipsum dolor sit amet consectetur. <span class="hash-teg">#lifestyle</span></p>
+                            </div> 
+                            <div class="text-gry comment">view all comments</div> 
+                    </div>                  
                 </div>
-
-                <div class = "col-md-6 col-lg-4 col-xl-3 p-2">
-                    <div class = "special-img position-relative overflow-hidden">
-                        <img src = "images/building-construction-icon.png" class = "w-25">
-                        <span class = "position-absolute d-flex align-items-center justify-content-center text-primary fs-4">
-                          
-                        </span>
+                <!--..................feeds.end................................-->
+            </div>
+             <!-- =======MAIN RIGHT======= -->
+            <div class="main-right">
+                <div class="messages" id="message-box">
+                    <div class="message-heading">
+                        <h4>message</h4><span><img src="icon/pencil-square.svg" class="icon1"></span>
                     </div>
-                    <div class = "text-left">
-                        <p class = "#">Architectural Design and Decoration</p>
-                        <span class = "fw-bold d-block">Test2</span>
-                     
+                    <!-- searchbar -->
+                    <div class="search-bar">
+                        <span><img src="icon/search.svg" class="icon2"></span>
+                        <input type="search" placeholder="search message" class="message-search">
                     </div>
-                </div>
-
-                <div class = "col-md-6 col-lg-4 col-xl-3 p-2">
-                    <div class = "special-img position-relative overflow-hidden">
-                        <img src = "images/demolition-icon.png" class = "w-25">
-                        <span class = "position-absolute d-flex align-items-center justify-content-center text-primary fs-4">
-                          
-                        </span>
+                    <!-- messagecategory -->
+                    <div class="category">
+                        <h6 class="active">firends</h6>
+                        <h6 class="">followrs</h6>
+                        <h6 class="pr-requst">request(4)</h6>
                     </div>
-                    <div class = "text-left">
-                        <p class = "#">Building Construction</p>
-                        <span class = "fw-bold d-block">Test3</span>
+                    <!-- messgae -->
+                    <div class="message">
+                        <div class="profile-phots">
+                            <div class="ac"></div>
+                            <img src="img/f3.png" alt="">
+                        </div>
+                        <div class="messgae-body">
+                            <h5>lion mesi</h5>
+                            <p class="text-gry">Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>                    
+                    <div class="message">
+                        <div class="profile-phots">
+                            <img src="img/m1.jpg" alt="">
+                        </div>
+                        <div class="messgae-body">
+                            <h5>emaly wills</h5>
+                            <p class="text-gry">Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>                    
+                    <div class="message">                        
+                        <div class="profile-phots">
+                            <div class="ac"></div>
+                            <img src="img/m2.png" alt="">
+                        </div>
+                        <div class="messgae-body">
+                            <h5>dani liza</h5>
+                            <p class="text-gry">Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>                    
+                    <div class="message">
+                        <div class="profile-phots">
+                            <img src="img/m3.jpg" alt="">
+                        </div>
+                        <div class="messgae-body">
+                            <h5>prince jhoo</h5>
+                            <p class="text-gry">Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>                    
+                    <div class="message ">
+                        <div class="profile-phots">
+                            <div class="ac"></div>
+                            <img src="img/m4.png" alt="">
+                        </div>
+                        <div class="messgae-body">
+                            <h5>daniel river</h5>
+                            <p class="text-gry">Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>                    
+                </div> 
+                <!--firend request-->
+                <div class="firend-requests">
+                    <h4>request</h4>
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-phots">
+                                <img src="img/f1.png" alt="">
+                            </div>
+                            <div class="request-body">
+                                <h5>adam fight</h5>
+                                <p class="text-gry">10 mutual firend</p>
+                            </div>                            
+                        </div>                                            
+                        <div class="action">                            
+                            <button class="btn btn-primary" id="add">accept</button>
+                            <button class="btn btn" id="del">delete</button>
+                        </div>
+                    </div>
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-phots">
+                                <img src="img/s3.jpg" alt="">
+                            </div>
+                            <div class="request-body">
+                                <h5>alex jnoy</h5>
+                                <p class="text-gry">10 mutual firend</p>
+                            </div>                            
+                        </div>
                         
+                        <div class="action">
+                            <button class="btn btn-primary" id="add">accept</button>
+                            <button class="btn " id="del">delete</button>
+                        </div>
                     </div>
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-phots">
+                                <img src="img/f3.png" alt="">
+                            </div>
+                            <div class="request-body">
+                                <h5>eval milk</h5>
+                                <p class="text-gry">10 mutual firend</p>
+                            </div>                            
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary" id="add">accept</button>
+                            <button class="btn " id="del">delete</button>
+                        </div>
+                    </div>
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-phots">
+                                <img src="img/f4.png" alt="">
+                            </div>
+                            <div class="request-body">
+                                <h5>dude putin</h5>
+                                <p class="text-gry">10 mutual firend</p>
+                            </div>                            
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary" id="add">accept</button>
+                            <button class="btn " id="del">delete</button>
+                        </div>
+                    </div>
+                </div>           
+            </div>
+        </div>
+    </main>
+
+    <!--................. THEME CUSTOMIZE.START............. -->
+    <div class="theme">
+        <div class="card">
+            <h2>CUSTOMIZE yuor site</h2>
+            <p class="text-gry">manage your font, color, and backgroud</p>
+
+
+            <!--........... FONT-SIZE........... -->
+            <div class="font-siz">
+                <div>
+                    <h6>aa</h6>
+                    <div class="choose-font-size">
+                        <span class="font1"></span>
+                        <span class="font2 active"></span>
+                        <span class="font3"></span>
+                        <span class="font4"></span>
+                        <span class="font5"></span>
+                    </div>
+                    <h3>aa</h3>
+                </div>               
+            </div>
+
+            <!--.................. COLOR................ -->
+        <div class="color">
+            <h3>color</h3>
+            <div class="choose-color">
+                <span class="color1"></span>
+                <span class="color2"></span>
+                <span class="color3 active"></span>
+                <span class="color4"></span>
+                <span class="color5"></span>
+            </div>
+        </div>
+
+        <!--.............BACKGROUND.............. -->
+        <div class="background">
+            <h3>backgorund</h3>
+            <div class="chosse-backgorund">
+                <div class="bg1 active">
+                    <span></span>
+                    <h5 class="bg1">light</h5>
                 </div>
-
-                <div class = "col-md-6 col-lg-4 col-xl-3 p-2">
-                    <div class = "special-img position-relative overflow-hidden">
-                        <img src = "images/foundation-icon.png" class = "w-25">
-                        <span class = "position-absolute d-flex align-items-center justify-content-center text-primary fs-4">
-                        
-                        </span>
-                    </div>
-                    <div class = "text-left">
-                        <p class = "#">Site Management and Consultation</p>
-                        <span class = "fw-bold d-block">Test4</span>
-                       
-                    </div>
-
+                <div class="bg2">
+                    <span></span>
+                    <h5 class="bg2">dark</h5>
+                </div>
+                <div class="bg3">
+                    <span></span>
+                    <h5 class="bg3">black</h5>
                 </div>
             </div>
         </div>
-    </section>
-    <!-- end of special products -->
 
-    <!-- blogs -->
-    <section id = "offers" class = "py-5">
-        <div class = "container">
-            <div class = "row d-flex align-items-center justify-content-center text-center justify-content-lg-start text-lg-start">
-                <div class = "offers-content">
-                    <span class = "#">ADA Construction Company Limited</span>
-                    <h2 class = "#">ယခုပဲဆက်သွယ်လိုက်ပါ!</h2>
-                    <a href = "#about" class = "btn">Contact Us</a>
-                  
-                </div>
-            </div>
         </div>
-    </section>
-    <!-- end of blogs -->
-
-    <!-- collection -->
-    <section id = "Our Activiteis" class = "py-5">
-        <div class = "container">
-            <div class = "title text-center">
-                <h2 class = "position-relative d-inline-block">Our Activiteis</h2>
-            </div>
-
-            <div class = "row g-0">
-                <div class = "d-flex flex-wrap justify-content-center mt-5 filter-button-group">
-                    <button type = "button" class = "btn m-2 text-dark active-filter-btn" data-filter = "*">All</button>
-                    <button type = "button" class = "btn m-2 text-dark" data-filter = ".best">Finished Projects</button>
-                    <button type = "button" class = "btn m-2 text-dark" data-filter = ".feat">Current Projects</button>
-                    <button type = "button" class = "btn m-2 text-dark" data-filter = ".new">Upcoming Projects</button>
-                </div>
-
-                <div class = "collection-list mt-4 row gx-0 gy-3">
-                    <div class = "col-md-6 col-lg-4 col-xl-3 p-2 best">
-                        <div class = "collection-img position-relative">
-                            <img src = "images/activities1.png" class = "w-100">
-                            <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">ADA</span>
-                        </div>
-                        <div class = "text-center">
-                            <div class = "rating mt-3">
-                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                            </div>
-                            <p class = "fw-bold">ADA</p>
-                            <span class = "fw-bold">Construction Company Limited</span>
-                        </div>
-                    </div>
-
-                    <div class = "col-md-6 col-lg-4 col-xl-3 p-2 feat">
-                        <div class = "collection-img position-relative">
-                            <img src = "images/activities2.png" class = "w-100">
-                            <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">ADA</span>
-                        </div>
-                        <div class = "text-center">
-                            <div class = "rating mt-3">
-                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                            </div>
-                            <p class = "fw-bold">ADA</p>
-                            <span class = "fw-bold">Construction Company Limited</span>
-                        </div>
-                    </div>
-
-                    <div class = "col-md-6 col-lg-4 col-xl-3 p-2 new">
-                        <div class = "collection-img position-relative">
-                            <img src = "images/activities3.png" class = "w-100">
-                            <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">ADA</span>
-                        </div>
-                        <div class = "text-center">
-                            <div class = "rating mt-3">
-                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                            </div>
-                            <p class = "fw-bold">ADA</p>
-                            <span class = "fw-bold">Construction Company Limited</span>
-                        </div>
-                    </div>
-
-                    <div class = "col-md-6 col-lg-4 col-xl-3 p-2 best">
-                        <div class = "collection-img position-relative">
-                            <img src = "images/activities4.png" class = "w-100">
-                            <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">ADA</span>
-                        </div>
-                        <div class = "text-center">
-                            <div class = "rating mt-3">
-                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                            </div>
-                            <p class = "fw-bold">ADA</p>
-                            <span class = "fw-bold">Construction Company Limited</span>
-                        </div>
-                    </div>
-
-                    <div class = "col-md-6 col-lg-4 col-xl-3 p-2 feat">
-                        <div class = "collection-img position-relative">
-                            <img src = "images/activities5.png" class = "w-100">
-                            <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">ADA</span>
-                        </div>
-                        <div class = "text-center">
-                            <div class = "rating mt-3">
-                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                            </div>
-                            <p class = "fw-bold">ADA</p>
-                            <span class = "fw-bold">Construction Company Limited</span>
-                        </div>
-                    </div>
-
-                    <div class = "col-md-6 col-lg-4 col-xl-3 p-2 new">
-                        <div class = "collection-img position-relative">
-                            <img src = "images/activities6.png" class = "w-100">
-                            <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">ADA</span>
-                        </div>
-                        <div class = "text-center">
-                            <div class = "rating mt-3">
-                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                            </div>
-                            <p class = "fw-bold">ADA</p>
-                            <span class = "fw-bold">Construction Company Limited</span>
-                        </div>
-                    </div>
-
-                    <div class = "col-md-6 col-lg-4 col-xl-3 p-2 best">
-                        <div class = "collection-img position-relative">
-                            <img src = "images/activities7.png" class = "w-100">
-                            <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">ADA</span>
-                        </div>
-                        <div class = "text-center">
-                            <div class = "rating mt-3">
-                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                            </div>
-                            <p class = "fw-bold">ADA</p>
-                            <span class = "fw-bold">Construction Company Limited</span>
-                        </div>
-                    </div>
-
-                    <div class = "col-md-6 col-lg-4 col-xl-3 p-2 feat">
-                        <div class = "collection-img position-relative">
-                            <img src = "images/activities8.jpg" class = "w-100">
-                            <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">ADA</span>
-                        </div>
-                        <div class = "text-center">
-                            <div class = "rating mt-3">
-                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                            </div>
-                            <p class = "fw-bold">ADA</p>
-                            <span class = "fw-bold">Construction Company Limited</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- end of collection -->
-
-    <!-- about us -->
-    <section id = "about" class = "py-5">
-        <div class = "container">
-            <div class = "row gy-lg-5 align-items-center">
-                <div class = "col-lg-6 order-lg-1 text-center text-lg-start">
-                    <div class = "title pt-3 pb-5">
-                        <h2 class = "position-relative d-inline-block ms-4">About</h2>
-                        <h1> "A.D.A Construction မှ Customer များအတွက် လှပသေသပ်ခိုင်ခံ့သော"</h1>
-                    </div>
-
-                    <p>အထပ်မြင့်၊ အထပ်နိမ့်၊ ကိုယ်ပိုင်လုံးချင်းအိမ်များ ဆောက်လုပ်ခြင်း။</p>
-                    <p>စက်ရုံ၊ အလုပ်ရုံများ၊ Hotel, Model များဆောက်လုပ်ခြင်း။</p>
-                    <p>မြေပိုင်ရှင်များနှင့် အခန်းပေး အခန်းယူ အကျိုးတူပူးပေါင်းဆောက်လုပ်ခြင်းများကို လူနေထိုင်ခွင့်ပြုချက် (BCC) ရသည့်အထိ လိုင်စင်အင်ဂျင်နီယာကြီးကြပ်မှုဖြင့် စိတ်တိုင်းကျ ဆောက်လုပ်ပေးနေပါသည်။</p>
-                    <p>အထပ်မြင့်၊ အထပ်နိမ့်၊ ကိုယ်ပိုင်လုံးချင်းအိမ်များ ဆောက်လုပ်ခြင်း။</p>
-
-                </div>
-                <div class = "col-md-6 col-lg-4 col-xl-3 p-2 best">
-                    <div class = "collection-img position-relative">
-                        <img src = "images/service.png" class = "w-100">
-
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- end of about us -->
-
-    <!-- footer -->
-
-    <footer class = "bg-dark py-5">
-        <div class = "container">
-            <div class = "row text-white g-4">
-                <div class = "col-md-6 col-lg-3">
-                    <a class = "navbar-brand d-flex justify-content-between align-items-center order-lg-0" href = "index.html">
-                        <img src = "images/shopping-bag-icon1.png" alt = "site icon">
-                     
-                    <a class = "text-uppercase text-decoration-none brand text-white" href = "index.html">Awng Dang Awng</a>
-                    <a class = "text-uppercase text-decoration-none brand text-white" href = "index.html">Construction Co., Ltd</a>
-                </div>
-
-                <div class = "col-md-6 col-lg-3">
-                    <h5 class = "fw-light">Links</h5>
-                    <ul class = "list-unstyled">
-                        <li class = "my-3">
-                            <a href = "#" class = "text-white text-decoration-none text-muted">
-                                <i class = "fas fa-chevron-right me-1"></i> Home
-                            </a>
-                        </li>
-                        <li class = "my-3">
-                            <a href = "#" class = "text-white text-decoration-none text-muted">
-                                <i class = "fas fa-chevron-right me-1"></i> Services
-                            </a>
-                        </li>
-                        <li class = "my-3">
-                            <a href = "#" class = "text-white text-decoration-none text-muted">
-                                <i class = "fas fa-chevron-right me-1"></i> Projects
-                            </a>
-                        </li>
-                        <li class = "my-3">
-                            <a href = "#" class = "text-white text-decoration-none text-muted">
-                                <i class = "fas fa-chevron-right me-1"></i> About
-                            </a>
-                        </li>
-
-                    </ul>
-                </div>
-
-                <div class = "col-md-6 col-lg-3">
-                    <h5 class = "fw-light mb-3">Contact Us</h5>
-                    <div class = "d-flex justify-content-start align-items-start my-2 text-muted">
-                        <span class = "me-3">
-                            <i class = "fas fa-map-marked-alt"></i>
-                        </span>
-                        <span class = "fw-light">
-                            ဟ (၁၄/၁၃၃)၊ ဟိုမွန်ရပ်ကွက်၊ ကချင်ဈေးအနီး၊ 
-                            မူဆယ်မြို့၊ ရှမ်းပြည်နယ် (မြောက်ပိုင်း)
-                             
-                        </span>
-                    </div>
-                    <div class = "d-flex justify-content-start align-items-start my-2 text-muted">
-                        <span class = "me-3">
-                            <i class = "fas fa-envelope"></i>
-                        </span>
-                        <span class = "fw-light">
-                            awngdangawng@gmail.com
-                        </span>
-                    </div>
-                    <div class = "d-flex justify-content-start align-items-start my-2 text-muted">
-                        <span class = "me-3">
-                            <i class = "fas fa-phone-alt"></i>
-                        </span>
-                        <span class = "fw-light">
-                            
-                            09-257990450,
-                            09-5231407,
-                            09-445106823, 263523474,
-                             
-                        </span>
-                    </div>
-                </div>
-
-                <div class = "col-md-6 col-lg-3">
-                    <h5 class = "fw-light mb-3">Follow Us</h5>
-                    <div>
-                        <ul class = "list-unstyled d-flex">
-                            <li>
-                                <a href = "#" class = "text-white text-decoration-none text-muted fs-4 me-4">
-                                    <i class = "fab fa-facebook-f"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href = "#" class = "text-white text-decoration-none text-muted fs-4 me-4">
-                                    <i class = "fab fa-twitter"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href = "#" class = "text-white text-decoration-none text-muted fs-4 me-4">
-                                    <i class = "fab fa-instagram"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href = "#" class = "text-white text-decoration-none text-muted fs-4 me-4">
-                                    <i class = "fab fa-pinterest"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href = "#" class = "text-white text-decoration-none text-muted fs-4 me-4">
-                                    <i class = "fab fa-linkedin"></i>
-                                </a>
-                            </li>
-
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- end of footer -->
+    </div>
+    <!--.............THEME CUSTOMIZE.END...... -->
+    <!-- ................END MAINE SECTION......................... -->
 
 
 
-
-    <!-- jquery -->
-    <script src = "js/jquery-3.6.0.js"></script>
-    <!-- isotope js -->
-    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
-    <!-- bootstrap js -->
-    <script src = "bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
-    <!-- custom js -->
-    <script src = "js/script.js"></script>
+    <!-- .............CUSTOM JS LINK...................... -->
+    <script src="script.js"></script>
 </body>
 </html>
